@@ -3,6 +3,7 @@
         "*.pl": "prolog",
         "iostream": "cpp",
         "vector": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "__threading_support": "cpp"
     }
 }
