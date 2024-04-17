@@ -2,27 +2,22 @@
 #include <vector>
 using namespace std;
 
-int main()
-{
+int main() {
     std::vector<int> values;
     double sum = 0, averageValue;
     int value;
 
-    for (int i = 0; i < 5; i++)
-    {
+    for (int i = 0; i < 5; i++) {
         cout << "Insert value " << i << ": ";
         cin >> value;
-
         values.push_back(value);
     }
 
-    for (int i = 0; i < values.size(); i++)
-    {
+    for (int i = 0; i < values.size(); i++) {
         sum += values[i];
     }
 
     averageValue = sum / values.size();
-
     cout << "Average value: " << averageValue << "\n";
 }
 
