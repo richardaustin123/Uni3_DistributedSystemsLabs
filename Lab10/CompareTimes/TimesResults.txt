@@ -1,0 +1,39 @@
+Average time for Sequential
+0.00032508
+0.000470218
+0.000467342
+0.000474635
+
+Average time for Simple Sequential
+0.0366413
+0.0375052
+0.0380765
+0.0372385
+
+Average time for Parallel solution 1
+0.000414444
+0.000453533
+0.000500593
+0.000448947
+
+Average time for Parallel solution 2
+0.000496016
+0.000522359
+0.000509901
+0.000425841
+
+Average time for Parallel Thread Pool
+0.0620016
+0.06224
+0.0688327
+0.0626217
+
+
+
+Meaning......
+Sequential is sometimes the fastest.... 
+Simple Sequential is one of the slowest
+Parallel solution 1 is sometimes the fastest....
+Parallel solution 2 is sometimes the fastest....
+Parallel Thread Pool is always the slowest
+
