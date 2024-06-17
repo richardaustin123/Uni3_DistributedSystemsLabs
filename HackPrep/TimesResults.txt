@@ -1,0 +1,21 @@
+Sequntial expanded time
+3.72866e-05
+5.00081e-05
+5.45206e-05
+
+Thread v1 time 
+0.000107306
+0.000141281
+0.000154579
+
+Thread v2 time 
+0.000709578
+0.000717539
+0.00073305
+
+Async 
+0.000129567
+0.000187039
+0.000107628
+
+Why is normal thread generally faster :o 

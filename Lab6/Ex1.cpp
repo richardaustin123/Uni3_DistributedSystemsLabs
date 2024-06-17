@@ -20,13 +20,11 @@ void producer();
 void consumer();
 
 int main() {
-    // spawn producer thread 
-    // spawn consumer thread 
+    // spawn producer and consumer threads
     thread t1(producer);
     thread t2 (consumer);
 
-    // join producer thread 
-    // join consumer thread
+    // join producer and consumer threads
     t1.join();
     t2.join();
 }
@@ -35,7 +33,7 @@ void producer() {
     this_thread::sleep_for(chrono::milliseconds(2000));
     
     srand((unsigned)time(nullptr));
-    // generare 10 random numbers
+    // generate 10 random numbers
     for (int i = 0; i < 10; i++) {
         int temp = rand() % 99;
         randomNumbers.push_back(temp);
